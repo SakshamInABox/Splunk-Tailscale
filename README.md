@@ -4,6 +4,11 @@ Making [Splunk Enterprise](https://www.splunk.com/en_us/products/splunk-enterpri
 ### Use case
 Working collaboratively on a one-off investigation with several log files? This setup allows you to quickly spin up a disposable Splunk Enterprise server, where you can upload log files to Splunk and share the instance to a member on your [Tailnet](https://tailscale.com/kb/1136/tailnet/).
 
+### Prerequisites
+- Debian-Based Linux Distribution (script tested primarly on Kali Linux and Amazon Linux).
+- Tailscale [Auth Key](https://tailscale.com/kb/1085/auth-keys/)
+- Optional: Tailscale account of the second user, if [sharing with external party](https://tailscale.com/kb/1084/sharing/).
+
 ### Usage
 Coming soon...
 
